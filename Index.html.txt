@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bold Beauty Peptides | Research Use Only</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+header {
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+header p {
+  margin-top: 12px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #555;
+}
+
+.disclaimer-top {
+  max-width: 900px;
+  margin: 30px auto 0;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 50px 0 30px;
+  flex-wrap: wrap;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs button.active {
+  border-color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px 80px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+}
+
+.product {
+  border: 1px solid #e5e5e5;
+  padding: 25px;
+  transition: 0.2s;
+}
+
+.product:hover {
+  border-color: #000;
+}
+
+.product h3 {
+  margin: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.product p {
+  font-size: 13px;
+  color: #555;
+  margin: 12px 0 20px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 11px;
+  color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bold Beauty Peptides</h1>
+  <p>Premium Research Compounds</p>
+
+  <div class="disclaimer-top">
+    All products on this website are sold strictly for laboratory research purposes only.
+    Not for human or animal consumption. Products are not intended to diagnose, treat,
+    cure, or prevent any disease.
+  </div>
+</header>
+
+<div class="tabs">
+  <button class="active" onclick="openTab('recovery')">Recovery</button>
+  <button onclick="openTab('metabolic')">Metabolic</button>
+  <button onclick="openTab('beauty')">Beauty</button>
+  <button onclick="openTab('special')">Special Series</button>
+</div>
+
+<div class="container">
+
+<!-- RECOVERY -->
+<div id="recovery" class="tab-content active">
+  <div class="grid">
+    <div class="product"><h3>BPC-157 5mg</h3><p>Research peptide commonly studied for tissue recovery.</p><div class="price">$60</div></div>
+    <div class="product"><h3>BPC-157 10mg</h3><p>Higher concentration research compound.</p><div class="price">$90</div></div>
+    <div class="product"><h3>TB-500 10mg</h3><p>Often researched for cellular repair pathways.</p><div class="price">$110</div></div>
+    <div class="product"><h3>BPC + TB Combo</h3><p>Combined recovery research formulation.</p><div class="price">$140</div></div>
+    <div class="product"><h3>KPV</h3><p>Studied for inflammatory response modulation.</p><div class="price">$70</div></div>
+  </div>
+</div>
+
+<!-- METABOLIC -->
+<div id="metabolic" class="tab-content">
+  <div class="grid">
+    <div class="product"><h3>Sema 5mg</h3><p>GLP-1 research compound.</p><div class="price">$110</div></div>
+    <div class="product"><h3>Sema 10mg</h3><p>Extended metabolic research vial.</p><div class="price">$140</div></div>
+    <div class="product"><h3>Cagri 5mg</h3><p>Studied for appetite signaling pathways.</p><div class="price">$120</div></div>
+    <div class="product"><h3>ML-10</h3><p>Metabolic research peptide.</p><div class="price">$95</div></div>
+    <div class="product"><h3>MOTS-C</h3><p>Mitochondrial research compound.</p><div class="price">$110</div></div>
+  </div>
+</div>
+
+<!-- BEAUTY -->
+<div id="beauty" class="tab-content">
+  <div class="grid">
+    <div class="product"><h3>GHK-Cu</h3><p>Copper peptide studied in cosmetic research.</p><div class="price">$65</div></div>
+    <div class="product"><h3>Snap-8</h3><p>Cosmetic peptide research compound.</p><div class="price">$75</div></div>
+    <div class="product"><h3>Glow-70</h3><p>Skin support research blend.</p><div class="price">$95</div></div>
+    <div class="product"><h3>Epitalon</h3><p>Longevity pathway research compound.</p><div class="price">$85</div></div>
+  </div>
+</div>
+
+<!-- SPECIAL -->
+<div id="special" class="tab-content">
+  <div class="grid">
+    <div class="product"><h3>Tirz 10mg</h3><p>GLP-1/GIP dual-pathway research.</p><div class="price">$160</div></div>
+    <div class="product"><h3>Tirz 20mg</h3><p>Extended research vial.</p><div class="price">$220</div></div>
+    <div class="product"><h3>Tirz 30mg</h3><p>High-volume research compound.</p><div class="price">$280</div></div>
+    <div class="product"><h3>Tirz 60mg</h3><p>Bulk laboratory research vial.</p><div class="price">$420</div></div>
+    <div class="product"><h3>PT-141</h3><p>Behavioral response research peptide.</p><div class="price">$105</div></div>
+  </div>
+</div>
+
+</div>
+
+<footer>
+© 2026 Bold Beauty Peptides. Research Use Only.
+</footer>
+
+<script>
+function openTab(tabId) {
+  var tabs = document.querySelectorAll('.tab-content');
+  var buttons = document.querySelectorAll('.tabs button');
+
+  tabs.forEach(t => t.classList.remove('active'));
+  buttons.forEach(b => b.classList.remove('active'));
+
+  document.getElementById(tabId).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+
+</body>
+</html>
